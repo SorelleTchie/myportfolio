@@ -1,6 +1,6 @@
 from django.contrib import admin
 # Register your models here.
-from blog.models import Post, Category
+from .models import Post, Category
 
 class PostAdmin(admin.ModelAdmin):
     pass
